@@ -507,13 +507,13 @@ contract CRYPTEQ is ERC20Detailed, Ownable {
         uint256 epoch = times.mul(15);
 
         if (deltaTimeFromInit < (365 days)) {
-            rebaseRate = 3867;
+            rebaseRate = 2552;
         } else if (deltaTimeFromInit >= (7 * 365 days)) {
-            rebaseRate = 3;
+            rebaseRate = 2;
         } else if (deltaTimeFromInit >= ((15 * 365 days) / 10)) {
-            rebaseRate = 22;
+            rebaseRate = 15;
         } else if (deltaTimeFromInit >= (365 days)) {
-            rebaseRate = 346;
+            rebaseRate = 228;
         }
 
         for (uint256 i = 0; i < times; i++) {
