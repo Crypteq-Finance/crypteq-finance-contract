@@ -417,8 +417,7 @@ contract CRYPTEQ is ERC20Detailed, Ownable {
     uint256 public constant MAX_UINT256 = ~uint256(0);
     uint8 public constant RATE_DECIMALS = 7;
 
-    uint256 private constant INITIAL_FRAGMENTS_SUPPLY =
-        325 * 10**3 * 10**DECIMALS;
+    uint256 private constant INITIAL_FRAGMENTS_SUPPLY = 700 * 10**3 * 10**DECIMALS;
 
     uint256 public liquidityFee = 40;
     uint256 public treasuryFee = 25;
@@ -452,7 +451,7 @@ contract CRYPTEQ is ERC20Detailed, Ownable {
     uint256 private constant TOTAL_GONS =
         MAX_UINT256 - (MAX_UINT256 % INITIAL_FRAGMENTS_SUPPLY);
 
-    uint256 private constant MAX_SUPPLY = 325 * 10**7 * 10**DECIMALS;
+    uint256 private constant MAX_SUPPLY = 700 * 10**7 * 10**DECIMALS;
 
     bool public _autoRebase;
     bool public _autoAddLiquidity;
