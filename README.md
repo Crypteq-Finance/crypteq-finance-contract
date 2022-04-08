@@ -1,2 +1,4 @@
-# crypteq-finance-contract
- Contract of Crypteq finance
+# Contract of Crypteq finance
+
+- CRQ : [0xd04748DE8a9743A120E961D2b2AecdD368C9b818](https://bscscan.com/address/0xd04748DE8a9743A120E961D2b2AecdD368C9b818)
+- CRQ-WBNB : [0xaF4d8b048D6D1400df95aB901AE679F024e1C504](https://bscscan.com/address/0xaF4d8b048D6D1400df95aB901AE679F024e1C504)
